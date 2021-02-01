@@ -1,72 +1,51 @@
 /* impostazioni distanza righe */
 .row1 {
-  margin-right: auto;
   margin-top: 6vh;
   margin-bottom: 6vh;
   padding: 2%;
   text-align: center;
 }
 /* fine impostazioni distanza righe */
-.row h1 {
+
+/* regole generali scritte */
+.container {
+  margin-right: auto;
+}
+
+.container h1 {
   margin: 1vh 0;
 }
-.row h3 {
+.container h3 {
   margin: 2vh 0;
   font-size: 160%;
 }
-.row p {
+.container p {
   font-size: 120%;
   margin: 1vh 0;
 }
-/* impostazioni specifiche sezione lezioni */
-/* #lezioni {
-  text-align: center;
-}
-#lezioni .row h1 {
-  margin: 1vh 0;
-}
-#lezioni .row h3 {
-  margin: 2vh 0;
-  font-size: 160%;
-}
-#lezioni .row p {
-  font-size: 120%;
-}
-#lezioni .row .left,
-#lezioni .row .right {
-  padding: 2%;
-} */
-/* fine impostazioni spechifiche Lezioni */
+/* fine regoli generali scritte */
 
-
-
-/* BLOCCO PERCHE */
-#why {
-  text-align: center;
+/* regola background grigio */
+.container.grey {
+  background-color: #f9f9f9;
 }
+/* fine regola background grigio */
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 80px;
+/* regola generali immagini */
+img {
+  height: 200px;
 }
+/* fine regola generali immagini */
 
-#why .row img {
+/* regola specifica immagini why */
+#why .container img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
 }
+/* fine regola specifica immagini why */
 
-/* COMMON */
-.row.grey {
-  background-color: #f9f9f9;
-}
-
-img {
-  height: 200px;
-}
-
+/* regole specifiche progetto di adattamento schermo */
 @media screen and (min-width:772px) and (max-width:1200px) {
   #lezioni,
   #why{
@@ -75,8 +54,9 @@ img {
 }
 @media screen and (max-width:772px) {
 /* Specifiche */
-#lezioni .row,
-#why .row {
+#lezioni .container,
+#why .container {
   background-color: #f5f5c9;
 }
 }
+/* fine regole specifiche */
