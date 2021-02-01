@@ -14,6 +14,7 @@
 
 .container h1 {
   margin: 1vh 0;
+  font-size: 300%;
 }
 .container h3 {
   margin: 2vh 0;
@@ -34,6 +35,8 @@
 /* regola generali immagini */
 img {
   height: 200px;
+  max-width: 200px;
+  width: 100%;
 }
 /* fine regola generali immagini */
 
@@ -41,7 +44,8 @@ img {
 #why .container img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
+  margin-top: 2vh;
 }
 /* fine regola specifica immagini why */
 
