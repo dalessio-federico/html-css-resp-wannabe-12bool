@@ -3,11 +3,23 @@
   margin-right: auto;
   margin-top: 6vh;
   margin-bottom: 6vh;
+  padding: 2%;
+  text-align: center;
 }
 /* fine impostazioni distanza righe */
-
+.row h1 {
+  margin: 1vh 0;
+}
+.row h3 {
+  margin: 2vh 0;
+  font-size: 160%;
+}
+.row p {
+  font-size: 120%;
+  margin: 1vh 0;
+}
 /* impostazioni specifiche sezione lezioni */
-#lezioni {
+/* #lezioni {
   text-align: center;
 }
 #lezioni .row h1 {
@@ -23,21 +35,10 @@
 #lezioni .row .left,
 #lezioni .row .right {
   padding: 2%;
-}
+} */
 /* fine impostazioni spechifiche Lezioni */
 
 
-/* BLOCCO STEPS */
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-}
-
-#steps {
-  text-align: center;
-}
 
 /* BLOCCO PERCHE */
 #why {
@@ -58,7 +59,7 @@
 }
 
 /* COMMON */
-.container.grey {
+.row.grey {
   background-color: #f9f9f9;
 }
 
